@@ -1,0 +1,110 @@
+{
+	"artist": "ikimono gakari",
+	"name": "Blue Bird",
+	"lyrics": [
+		{"startTime": 680, "endTime": 3910, "text": "Habataitara"},
+		{"startTime": 3910, "endTime": 7160, "text": "modoranai to itte"},
+		{"startTime": 7160, "endTime": 9900, "text": "Mezashita no wa"},
+		{"startTime": 9900, "endTime": 26180, "text": "aoi aoi ano sora"},
+		{
+			"startTime": 26180,
+			"endTime": 29160,
+			"text": "\"Kanashimi\" wa mada oboerarezu"
+		},
+		{
+			"startTime": 29160,
+			"endTime": 32409,
+			"text": "\"setsunasa\" wa ima tsukamihajimeta"
+		},
+		{
+			"startTime": 32409,
+			"endTime": 35660,
+			"text": "Anata e to idaku kono kanjou mo"
+		},
+		{
+			"startTime": 35660,
+			"endTime": 38660,
+			"text": "Ima \"kotoba\" ni kawatte iku"
+		},
+		{
+			"startTime": 38660,
+			"endTime": 43150,
+			"text": "Michinaru sekai no yume kara"
+		},
+		{"startTime": 43150, "endTime": 44910, "text": "mezamete"},
+		{
+			"startTime": 44910,
+			"endTime": 51660,
+			"text": "Kono hane wo hiroge tobitatsu"
+		},
+		{"startTime": 51660, "endTime": 54660, "text": "Habataitara"},
+		{"startTime": 54660, "endTime": 57920, "text": "modoranai to itte"},
+		{"startTime": 57920, "endTime": 60670, "text": "Mezashita no wa"},
+		{"startTime": 60670, "endTime": 64170, "text": "shiroi shiroi ano kumo"},
+		{"startTime": 64170, "endTime": 67160, "text": "Tsukinuketara"},
+		{"startTime": 67160, "endTime": 70400, "text": "mitsukaru to shitte"},
+		{"startTime": 70400, "endTime": 73670, "text": "Furikiru hodo"},
+		{"startTime": 73670, "endTime": 76650, "text": "aoi aoi ano sora"},
+		{"startTime": 76650, "endTime": 79900, "text": "Aoi aoi ano sora"},
+		{"startTime": 79900, "endTime": 89410, "text": "Aoi aoi ano sora"},
+		{
+			"startTime": 89410,
+			"endTime": 92400,
+			"text": "Aisou tsukita you na oto de"
+		},
+		{
+			"startTime": 92400,
+			"endTime": 95670,
+			"text": "Sabireta furui mado wa kowareta"
+		},
+		{
+			"startTime": 95670,
+			"endTime": 98630,
+			"text": "Miakita kago wa hora sutete iku"
+		},
+		{
+			"startTime": 98630,
+			"endTime": 102160,
+			"text": "Furikaeru koto wa mou nai"
+		},
+		{
+			"startTime": 102160,
+			"endTime": 106660,
+			"text": "Takanaru kodou ni kokyuu wo"
+		},
+		{"startTime": 106660, "endTime": 108150, "text": "azukete"},
+		{
+			"startTime": 108150,
+			"endTime": 114660,
+			"text": "Kono mado wo kette tobitatsu"
+		},
+		{"startTime": 114660, "endTime": 117640, "text": "Kakedashitara"},
+		{"startTime": 117640, "endTime": 120640, "text": "te ni dekiru to itte"},
+		{"startTime": 120640, "endTime": 123900, "text": "Izanau no wa"},
+		{"startTime": 123900, "endTime": 127140, "text": "tooi tooi ano koe"},
+		{"startTime": 127140, "endTime": 130389, "text": "Mabushisugita"},
+		{"startTime": 130389, "endTime": 133380, "text": "anata no te mo nigitte"},
+		{"startTime": 133380, "endTime": 136660, "text": "Motomeru hodo"},
+		{"startTime": 136660, "endTime": 152650, "text": "aoi aoi ano sora"},
+		{
+			"startTime": 152650,
+			"endTime": 159400,
+			"text": "Ochite iku to wakatte ita sore"
+		},
+		{
+			"startTime": 159400,
+			"endTime": 166650,
+			"text": "Demo hikari wo oitsuzukete iku yo"
+		},
+		{"startTime": 166650, "endTime": 169910, "text": "Habataitara"},
+		{"startTime": 169910, "endTime": 172890, "text": "modoranai to itte"},
+		{"startTime": 172890, "endTime": 175890, "text": "Sagashita no wa"},
+		{"startTime": 175890, "endTime": 179400, "text": "shiroi shiroi ano kumo"},
+		{"startTime": 179400, "endTime": 182390, "text": "Tsukinuketara"},
+		{"startTime": 182390, "endTime": 185650, "text": "mitsukaru to shitte"},
+		{"startTime": 185650, "endTime": 188650, "text": "Furikiru hodo"},
+		{"startTime": 188650, "endTime": 191890, "text": "aoi aoi ano sora"},
+		{"startTime": 191890, "endTime": 194890, "text": "Aoi aoi ano sora"},
+		{"startTime": 194890, "endTime": 204890, "text": "Aoi aoi ano sora"}
+	]
+}

@@ -1,0 +1,14 @@
+[
+  {
+  "name":"blue bird",
+  "cover":"blue-bird.jpg",
+  "music":"blue-bird.mp3",
+  "lyrics":"blue-bird.json"
+  },
+  {
+    "name":"guren",
+    "cover":"guren.jpg",
+    "lyrics":"guren.json",
+    "music":"guren.mp3"
+  }
+]

@@ -1,0 +1,59 @@
+.container{
+  width: 100%;
+  height: 60vh;
+  color: var(--lyrics-color);
+  text-align: center;
+  font-size: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.container .text{
+  margin-top: 8rem;
+  opacity: 1;
+  font-size: 65px;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+
+}
+
+body{
+ font-family:  "Montserrat",sans-serif;
+}
+
+.background{
+  color: white;
+  height: 100%;
+  flex: 1 1 0%;
+}
+
+.song-meta{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.cover{
+  width: 600px;
+  height: 600px;
+  box-shadow: 10px 15px 150px -20px #000000ce;
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.lyrics-container{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.lyrics-container p {
+  font-size: 65px !important;
+}

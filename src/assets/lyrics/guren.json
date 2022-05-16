@@ -1,0 +1,153 @@
+{
+	"artist": "Linked Horizon",
+	"name": "Guren no Yumiya",
+	"lyrics": [
+		{"startTime": 21110, "endTime": 22120, "text": "Seid ihr das Essen?"},
+		{"startTime": 22120, "endTime": 24360, "text": "Nein, wir sind der Jäger!"},
+		{
+			"startTime": 24360,
+			"endTime": 36170,
+			"text": "(Feuerroter Pfeil und Bogen)"
+		},
+		{"startTime": 36170, "endTime": 38360, "text": "Fumareta hana no"},
+		{"startTime": 38360, "endTime": 41180, "text": "Namae mo shirazu ni"},
+		{"startTime": 41180, "endTime": 43670, "text": "Chi ni ochita tori wa"},
+		{"startTime": 43670, "endTime": 46390, "text": "Kaze wo machiwabiru"},
+		{"startTime": 46390, "endTime": 49140, "text": "Inotta tokoro de"},
+		{"startTime": 49140, "endTime": 51600, "text": "Nani mo kawaranai"},
+		{"startTime": 51600, "endTime": 54140, "text": "Ima wo kaeru no wa"},
+		{"startTime": 54140, "endTime": 56860, "text": "Tatakau kakugo da"},
+		{"startTime": 56860, "endTime": 59100, "text": "Shikabane fumikoete"},
+		{
+			"startTime": 59100,
+			"endTime": 62130,
+			"text": "Susumu ishi wo warau buta yo"
+		},
+		{
+			"startTime": 62130,
+			"endTime": 65190,
+			"text": "Kachiku no annei kyogi no han'ei"
+		},
+		{
+			"startTime": 65190,
+			"endTime": 67350,
+			"text": "Shiseru garou \"Jiyuu\" wo!"
+		},
+		{"startTime": 67350, "endTime": 69850, "text": "Torawareta kutsujoku wa"},
+		{"startTime": 69850, "endTime": 72850, "text": "Hangeki no Koushi da"},
+		{"startTime": 72850, "endTime": 75350, "text": "Jouheki no sono kanata"},
+		{"startTime": 75350, "endTime": 78360, "text": "Emono wo hofuru Jäger"},
+		{"startTime": 78360, "endTime": 80860, "text": "Hotobashiru Shoudouni"},
+		{"startTime": 80860, "endTime": 83660, "text": "Sono mi wo yakinagara"},
+		{"startTime": 83660, "endTime": 86150, "text": "Tasogare ni hi wo ugatsu"},
+		{"startTime": 86150, "endTime": 99620, "text": "Guren no yumiya"},
+		{"startTime": 99620, "endTime": 112650, "text": "Ya wo tsugae oikakeru"},
+		{"startTime": 112650, "endTime": 115660, "text": "yatsu wa nigasanai"},
+		{"startTime": 115660, "endTime": 116900, "text": "Ya wo hanachi oitsumeru"},
+		{"startTime": 116900, "endTime": 120910, "text": "kesshite nigasanai"},
+		{"startTime": 120910, "endTime": 122210, "text": "Genkai made hikishiboru"},
+		{"startTime": 122210, "endTime": 123630, "text": "Hachikire sou tsuru"},
+		{"startTime": 123630, "endTime": 128780, "text": "Yatsu ga ikitaeru made"},
+		{"startTime": 128780, "endTime": 131400, "text": "Nando demo hanatsu"},
+		{"startTime": 131400, "endTime": 133850, "text": "Emono wo korosu no wa"},
+		{
+			"startTime": 133850,
+			"endTime": 136850,
+			"text": "Dougu demo gijutsu demo nai"
+		},
+		{"startTime": 136850, "endTime": 139160, "text": "Togisumasareta"},
+		{
+			"startTime": 139160,
+			"endTime": 141850,
+			"text": "Omae jishin no satsui da"
+		},
+		{"startTime": 141850, "endTime": 144390, "text": "Wir sind der Jäger"},
+		{"startTime": 144390, "endTime": 147170, "text": "Honoo no you ni atsuku!"},
+		{"startTime": 147170, "endTime": 149610, "text": "Wir sind der Jäger"},
+		{
+			"startTime": 149610,
+			"endTime": 152600,
+			"text": "Koori no you ni hiyayaka ni"
+		},
+		{"startTime": 152600, "endTime": 155220, "text": "Wir sind der Jäger"},
+		{"startTime": 155220, "endTime": 157940, "text": "Onore wo ya ni komete!"},
+		{"startTime": 157940, "endTime": 160360, "text": "Wir sind der Jäger"},
+		{
+			"startTime": 160360,
+			"endTime": 195630,
+			"text": "Subete wo tsuranuite ike!"
+		},
+		{"startTime": 195630, "endTime": 198350, "text": "Angriff auf die Titanen"},
+		{
+			"startTime": 198350,
+			"endTime": 204130,
+			"text": "Der Junge von einst wird bald zum Schwert greifen"
+		},
+		{
+			"startTime": 204130,
+			"endTime": 212890,
+			"text": "Wer nur seine Machtlosigkeit beklagt, kann nichts verandern"
+		},
+		{
+			"startTime": 212890,
+			"endTime": 218170,
+			"text": "Der Junge von einst wird bald das schwarze Schwert ergreifen"
+		},
+		{
+			"startTime": 218170,
+			"endTime": 223030,
+			"text": "Hass und Zorn sind eine zweischneidige Klinge"
+		},
+		{
+			"startTime": 223030,
+			"endTime": 228870,
+			"text": "Bald, eines Tages, wird er dem Schicksal die Zahne zeigen"
+		},
+		{
+			"startTime": 228870,
+			"endTime": 234140,
+			"text": "Nanika wo kaeru koto ga dekiru no wa"
+		},
+		{
+			"startTime": 234140,
+			"endTime": 239350,
+			"text": "Nanika wo suteru koto ga dekiru mono"
+		},
+		{
+			"startTime": 239350,
+			"endTime": 244600,
+			"text": "Nani hitotsu RISUKU nado seowanai mama de"
+		},
+		{"startTime": 244600, "endTime": 249470, "text": "Nanika ga kanau nado"},
+		{"startTime": 249470, "endTime": 250920, "text": "Angu no soutei"},
+		{"startTime": 250920, "endTime": 252170, "text": "Tada no gen'ei"},
+		{
+			"startTime": 252170,
+			"endTime": 254600,
+			"text": "Ima wa mubou na yuuki mo"
+		},
+		{"startTime": 254600, "endTime": 256260, "text": "\"Jiyuu\" no senpei"},
+		{"startTime": 256260, "endTime": 257610, "text": "Kake no kousei"},
+		{
+			"startTime": 257610,
+			"endTime": 260100,
+			"text": "Hashiru dorei ni shouri wo!"
+		},
+		{"startTime": 260100, "endTime": 261600, "text": "Kaserareta fujouri wa"},
+		{"startTime": 261600, "endTime": 265640, "text": "Shingeki no Koushi da"},
+		{"startTime": 265640, "endTime": 268100, "text": "Ubawareta sono chihei"},
+		{"startTime": 268100, "endTime": 270850, "text": "\"Sekai\" wo nozomu Ere"},
+		{"startTime": 270850, "endTime": 273350, "text": "Tomedonaki Shoudou ni"},
+		{
+			"startTime": 273350,
+			"endTime": 276100,
+			"text": "Sono mi wo okasare nagara"
+		},
+		{
+			"startTime": 276100,
+			"endTime": 278860,
+			"text": "Yoiyami ni shi wo hakobu"
+		},
+		{"startTime": 278860, "endTime": 288860, "text": "Meifu no yumiya"}
+	]
+}
