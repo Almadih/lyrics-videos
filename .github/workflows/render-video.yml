@@ -3,9 +3,13 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: "Which text should it say?"
+        description: "song"
         required: true
         default: "blue bird"
+      frames:
+        description: "number of frames"
+        required: true
+        default: 360
 jobs:
   render:
     name: Render video
