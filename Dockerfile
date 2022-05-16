@@ -20,8 +20,8 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 
 COPY package*.json ./
 COPY src src
-COPY *.ts .
-COPY *.tsx .
+COPY remotion.config.js .
+COPY server.mjs .
 
 RUN npm i
 
