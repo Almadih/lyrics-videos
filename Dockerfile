@@ -1,10 +1,10 @@
 # This is a dockerized version of a server that you can easily deploy somewhere.
 # If you don't want server rendering, you can safely delete this file.
 
-FROM node:alpine
+FROM node:14-alpine
 
 # Installs latest Chromium (85) package.
-RUN apk add --no-cache \
+RUN apk add \
   chromium \
   nss \
   freetype \
@@ -17,13 +17,13 @@ RUN apk add --no-cache \
 # Tell Puppeteer to skip installing Chrome. We'll be using the installed package.
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
   PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
+WORKDIR /usr/src/app
 
 COPY package*.json ./
-COPY src src
-COPY remotion.config.js .
-COPY server.mjs .
-
-RUN npm i
+RUN pwd
+RUN ls -l
+RUN npm install
+COPY . .
 
 # Add user so we don't need --no-sandbox.
 RUN addgroup -S pptruser && adduser -S -g pptruser pptruser \
@@ -35,4 +35,4 @@ USER pptruser
 
 EXPOSE 8000
 
-CMD ["npm", "run", "server"] 
+CMD ["npm", "run", "server"]
