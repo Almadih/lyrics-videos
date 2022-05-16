@@ -21,7 +21,7 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 COPY package*.json ./
 COPY src src
 COPY *.js .
-COPY *.mjs .
+COPY *.mjs /.
 
 RUN npm i
 
