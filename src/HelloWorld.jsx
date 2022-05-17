@@ -2,7 +2,7 @@ import {interpolate, Sequence, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Lyrics} from './HelloWorld/Lyrics';
 import Audio from './audio';
 import './assets/index.css'
-import ColorThief from '../node_modules/colorthief/dist/color-thief.mjs'
+import ColorThief from './colorthif.mjs'
 import { useEffect, useState } from 'react';
 import songs from './assets/songs.json'
 
