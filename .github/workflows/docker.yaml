@@ -14,17 +14,14 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  docker:
-    name: Publish - Docker Hub
-    runs-on: ubuntu-18.04
-    env:
-      REPO: ${{ secrets.DOCKER_REPO }}
+  build-and-push-to-gcr:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Login to Docker Hub
-        run: docker login -u ${{ secrets.DOCKER_USER }}
-          -p ${{ secrets.DOCKER_PASS }}
-      - name: Build Docker image
-        run: docker build -t $REPO:latest -t $REPO:${GITHUB_SHA::8} .
-      - name: Publish Docker image
-        run: docker push $REPO
+      - uses: google-github-actions/setup-gcloud@master
+      - uses: RafikFarhad/push-to-gcr-github-action@v4
+        with:
+          gcloud_service_key: ${{ secrets.GCLOUD_SERVICE_KEY }}
+          registry: gcr.io
+          project_id: attack-telegram-bot
+          image_name: videos-lyrics
