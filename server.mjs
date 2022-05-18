@@ -19,29 +19,22 @@ import path from 'path';
 const app = express();
 const port = process.env.PORT || 8000;
 const compositionId = 'HelloWorld';
-
-const cache = new Map();
+import TelegramBot from 'node-telegram-bot-api';
+const bot = new TelegramBot('1835696412:AAHwdpR8f8hyYTHoZXkjL4AGRdNgAJpAbgg',{polling:true})
+const chatId = '492135742'
+const sendFile = (file) => {
+	return bot.sendVideo(chatId,fs.createReadStream(file))
+};
 
 app.get('/', async (req, res) => {
-	const sendFile = (file) => {
-		fs.createReadStream(file)
-			.pipe(res)
-			.on('close', () => {
-				res.end();
-			});
-	};
+
 	try {
-		if (cache.get(JSON.stringify(req.query))) {
-			sendFile(cache.get(JSON.stringify(req.query)));
-			return;
-		}
 		const bundled = await bundle(path.join(process.cwd(), './src/index.jsx'));
 		const comps = await getCompositions(bundled);
 		const video = comps.find((c) => c.id === compositionId);
 		if (!video) {
 			throw new Error(`No video called ${compositionId}`);
 		}
-		res.set('content-type', 'video/mp4');
 
 		const tmpDir = await fs.promises.mkdtemp(
 			path.join(os.tmpdir(), 'remotion-')
@@ -73,14 +66,15 @@ app.get('/', async (req, res) => {
 			imageFormat: 'jpeg',
 			assetsInfo,
 		});
-		cache.set(JSON.stringify(req.query), finalOutput);
-		sendFile(finalOutput);
-		console.log('Video rendered and sent!');
-	} catch (err) {
-		console.error(err);
-		res.json({
-			error: err,
+
+		sendFile(finalOutput).then(()=>{
+		return	res.json({msg:'success'})
+		}).catch((err)=>{
+			return res.json({msg:'err',err})
 		});
+	} catch (err) {
+
+		return res.json({error: err});
 	}
 });
 
