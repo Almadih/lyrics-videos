@@ -1,14 +1,88 @@
 [
-  {
-  "name":"blue bird",
-  "cover":"blue-bird.jpg",
-  "music":"blue-bird.mp3",
-  "lyrics":"blue-bird.json"
-  },
-  {
-    "name":"guren",
-    "cover":"guren.jpg",
-    "lyrics":"guren.json",
-    "music":"guren.mp3"
-  }
+	{
+		"name": "blue bird",
+		"cover": "blue-bird.jpg",
+		"music": "blue-bird.mp3",
+		"lyrics": "blue-bird.json"
+	},
+	{
+		"name": "guren",
+		"cover": "guren.jpg",
+		"lyrics": "guren.json",
+		"music": "guren.mp3"
+	},
+	{
+		"name": "blue-bird",
+		"music": "blue-bird.mp3",
+		"lyrics": "blue-bird.json",
+		"cover": "blue-bird.jpg"
+	},
+	{
+		"name": "dororo",
+		"music": "dororo.mp3",
+		"lyrics": "dororo.json",
+		"cover": "dororo.jpg"
+	},
+	{
+		"name": "fire force",
+		"music": "fire force.mp3",
+		"lyrics": "fire force.json",
+		"cover": "fire force.jpg"
+	},
+	{"name": "fma", "music": "fma.mp3", "lyrics": "fma.json", "cover": "fma.jpg"},
+	{
+		"name": "guren",
+		"music": "guren.mp3",
+		"lyrics": "guren.json",
+		"cover": "guren.jpg"
+	},
+	{"name": "jjk", "music": "jjk.mp3", "lyrics": "jjk.json", "cover": "jjk.jpg"},
+	{
+		"name": "jojo p1",
+		"music": "jojo p1.mp3",
+		"lyrics": "jojo p1.json",
+		"cover": "jojo p1.jpg"
+	},
+	{
+		"name": "jojo p6",
+		"music": "jojo p6.mp3",
+		"lyrics": "jojo p6.json",
+		"cover": "jojo p6.jpg"
+	},
+	{
+		"name": "kaguya-sama",
+		"music": "kaguya-sama.mp3",
+		"lyrics": "kaguya-sama.json",
+		"cover": "kaguya-sama.jpg"
+	},
+	{
+		"name": "naruto op6",
+		"music": "naruto op6.mp3",
+		"lyrics": "naruto op6.json",
+		"cover": "naruto op6.jpg"
+	},
+	{
+		"name": "renai circulation",
+		"music": "renai circulation.mp3",
+		"lyrics": "renai circulation.json",
+		"cover": "renai circulation.jpg"
+	},
+	{
+		"name": "shigatsu",
+		"music": "shigatsu.mp3",
+		"lyrics": "shigatsu.json",
+		"cover": "shigatsu.jpg"
+	},
+	{
+		"name": "steins gate",
+		"music": "steins gate.mp3",
+		"lyrics": "steins gate.json",
+		"cover": "steins gate.jpg"
+	},
+	{
+		"name": "yahari",
+		"music": "yahari.mp3",
+		"lyrics": "yahari.json",
+		"cover": "yahari.jpg"
+	}
 ]
