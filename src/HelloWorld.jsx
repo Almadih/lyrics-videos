@@ -10,7 +10,7 @@ import songs from './assets/songs.json'
 
 export const HelloWorld = ({name}) => {
 	const song = songs.find(song => song.name === name);
-	const [background, setBackground] = useState('linear-gradient(to right, #010102, #4a00e0)');
+	const [background, setBackground] = useState('linear-gradient(to top, #010102, #4a00e0)');
 	const frame = useCurrentFrame();
 	const videoConfig = useVideoConfig();
 	const colorThief = new ColorThief();
@@ -25,7 +25,7 @@ export const HelloWorld = ({name}) => {
 			let hex = color.map(c => c.toString(16).padStart(2, '0')).join('');
 			return `#${hex}`
 		})
-		setBackground(`linear-gradient(to right, ${hexColors[0]}, ${hexColors[2]})`)
+		setBackground(`linear-gradient(to top, ${hexColors[0]}, ${hexColors[2]})`)
 	}
 	}, [image])
 

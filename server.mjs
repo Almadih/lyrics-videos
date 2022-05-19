@@ -20,7 +20,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 const compositionId = 'HelloWorld';
 import TelegramBot from 'node-telegram-bot-api';
-const bot = new TelegramBot('1835696412:AAHwdpR8f8hyYTHoZXkjL4AGRdNgAJpAbgg',{polling:true})
+const bot = new TelegramBot('1835696412:AAHwdpR8f8hyYTHoZXkjL4AGRdNgAJpAbgg')
 const chatId = '492135742'
 const sendFile = (file) => {
 	return bot.sendVideo(chatId,fs.createReadStream(file))
@@ -73,7 +73,7 @@ app.get('/', async (req, res) => {
 			return res.json({msg:'err',err})
 		});
 	} catch (err) {
-
+		console.log(err)
 		return res.json({error: err});
 	}
 });

@@ -14,7 +14,7 @@ export const RemotionVideo = () => {
 				height={1920}
 				width={1080}
 				defaultProps={{
-						name:'guren',
+						name:'jjk',
 				}}
 			/>
 		</>
